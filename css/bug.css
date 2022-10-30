@@ -1,0 +1,31 @@
+*{
+    text-transform: capitalize;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+ 
+}
+.containner>.heading h5{
+margin-top: 35px;
+}
+.containner>.heading p{
+    margin: 20px;
+    margin-top: 35px;
+}
+.containner>.rule h5{
+    margin: 20px;
+    margin-top: 35px;
+
+}
+.containner>.rule li{
+    margin: 20px;
+}
+.containner>.mail,.home{
+    margin: 20px;
+}
+a{
+    text-transform: uppercase;
+    color: yellowgreen;
+}
+.containner>.mail a{
+    text-transform: lowercase;
+}

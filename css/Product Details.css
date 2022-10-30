@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    color: black;
+}
+nav
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(83, 148, 168);
+box-shadow: 2px 2px 9px #000000;
+position: fixed;
+width: 100%;
+z-index: 2;
+top: 0px;
+
+}
+nav >.logo{
+    margin-left: 10px;
+}
+nav >.opt ul
+{
+ display: flex;
+color: black;
+ list-style-type: none;
+}
+nav>.opt ul li{
+ 
+ margin: 10px;
+}
+nav>.opt ul li a{
+ 
+    color: #000000;
+    text-decoration: none;
+   }
+.category{
+ margin: 7px;
+ background-color: white;
+ 
+ box-shadow: none;
+ position: relative;
+
+ z-index: -1;
+ width: 90%;
+ margin:auto;
+ margin-top: 70px;
+ text-align: center;
+}
+.category img{
+ height: 70px;
+ width: 70px;
+}
+.container{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 50px;
+}
+.category>.left{
+    position: fixed;
+    width: 56%;
+    height: 80vh;
+    margin-top: 30px;
+    
+}
+
+.container>.left>.productview>.view{
+    position: fixed;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.192);
+}
+.container>.left>.productview>.view img{
+    position: fixed;
+    border: 3px solid rgb(94, 94, 94);
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.192);
+}
+.container>.left>.productview>.gallery{
+    position: fixed;
+    margin-top: 320px;
+    display: flex;
+    width: 25%;
+    height: 100px;
+    justify-content: center;
+   
+  
+}
+.container>.left>.productview>.gallery img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid rgb(200, 201, 199);
+    margin: 5px;
+    display: flex;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.192);
+}
+.right{
+  
+    width: 45%;
+    
+}
+.right>.content{
+  
+    width: 60%;
+    margin-left: 300px;
+    
+}
+.container>.cart_b{
+    
+padding: 10px;
+  margin-left: 480px;
+  width: 350px;
+  margin-top: 150px;
+  position: fixed;
+}
+.container>.cart_b>.cart{
+    border: 1px solid green;
+    background: none;
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.192);
+}
+.container>.cart_b>.cart:hover{
+    background-color: green;
+    transition: .3s;
+}
+.container>.cart_b>.buy{
+    margin: 5px;
+    border: none;
+    background-color: rgb(83, 148, 168);
+    height: 50px;
+    width: 150px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.192);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 35, 46);
+}  
+.cpr{
+    color: white;
+    background-color: black;
+    text-align: center;
+}

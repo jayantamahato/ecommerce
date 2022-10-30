@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    
+   
+    }
+    a{
+        color: black;
+    }
+    nav
+    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(83, 148, 168);
+    box-shadow: 2px 2px 9px #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    font-family: 'Kanit', sans-serif;
+    
+    }
+    nav >.logo{
+        margin-left: 10px;
+    }
+    nav >.opt ul
+    {
+     display: flex;
+    color: black;
+     list-style-type: none;
+    }
+    nav>.opt ul li{
+     
+     margin: 10px;
+    }
+    nav>.opt ul li a{
+     
+        color: #000000;
+        text-decoration: none;
+       }
+
+
+
+
+
+
+
+
+
+
+.cart{
+    margin-top: 80px;
+
+}
+.cart h5,h6{
+    margin: 10px;
+}
+.cart>.notlogin{
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    margin: auto; 
+    box-shadow: 1px 1px 9px black; 
+    border-radius: 5px;
+}
+.cart button{
+    border: none;
+    background-color: rgb(83, 148, 168);
+    width: 120px;
+    height: 50px;
+    margin: 80px;
+}
+.cart img{
+    width: 150px;
+    height: 130px;
+    margin: 50px;
+}
+.cart a{
+    color: black;
+    text-decoration: none;
+}
+
+/*footer section*/
+
+footer{
+          
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 35, 46);
+}
+footer>.section{
+    color: white;
+    margin: auto;
+    padding: 35px;
+    margin-top: 10px;
+}
+.cpr{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
